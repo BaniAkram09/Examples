@@ -1,2 +1,2 @@
-print("This file was created within RStudio")
-print("And now it lives on GitHub")
+x <- list(a = 1:5, b = rnorm(10))
+lapply(x, mean)
